@@ -34,36 +34,36 @@ gsap.fromTo(
 	{ y: 0, opacity: 1, delay: 0.9, duration: 0.5, ease: 'expo.in' }
 )
 
-gsap.fromTo(
-	'.paper__image',
-	{ x: -70, opacity: 0 },
-	{
-		x: 0,
-		opacity: 1,
-		delay: 0.5,
-		duration: 0.5,
-		ease: 'linear',
-		scrollTrigger: {
-			trigger: '.paper__text',
-			start: '200px bottom',
-		},
-	}
-)
-gsap.fromTo(
-	'.paper__text',
-	{ x: 70, opacity: 0 },
-	{
-		x: 0,
-		opacity: 1,
-		delay: 0.5,
-		duration: 0.5,
-		ease: 'linear',
-		scrollTrigger: {
-			trigger: '.paper__text',
-			start: '200px bottom',
-		},
-	}
-)
+// gsap.fromTo(
+// 	'.paper__image',
+// 	{ x: -70, opacity: 0 },
+// 	{
+// 		x: 0,
+// 		opacity: 1,
+// 		delay: 0.5,
+// 		duration: 0.5,
+// 		ease: 'linear',
+// 		scrollTrigger: {
+// 			trigger: '.paper__text',
+// 			start: '200px bottom',
+// 		},
+// 	}
+// )
+// gsap.fromTo(
+// 	'.paper__text',
+// 	{ x: 70, opacity: 0 },
+// 	{
+// 		x: 0,
+// 		opacity: 1,
+// 		delay: 0.5,
+// 		duration: 0.5,
+// 		ease: 'linear',
+// 		scrollTrigger: {
+// 			trigger: '.paper__text',
+// 			start: '200px bottom',
+// 		},
+// 	}
+// )
 
 // Assortment
 gsap.fromTo(
@@ -144,33 +144,33 @@ gsap.fromTo(
 )
 
 // Scetchbook
-gsap.fromTo(
-	'.scetchbook__text',
-	{ x: -70, opacity: 0 },
-	{
-		x: 0,
-		opacity: 1,
-		delay: 0.5,
-		duration: 0.5,
-		ease: 'linear',
-		scrollTrigger: {
-			trigger: '.scetchbook__text',
-			start: '200px bottom',
-		},
-	}
-)
-gsap.fromTo(
-	'.scetchbook__image',
-	{ x: 70, opacity: 0 },
-	{
-		x: 0,
-		opacity: 1,
-		delay: 0.5,
-		duration: 0.5,
-		ease: 'linear',
-		scrollTrigger: {
-			trigger: '.scetchbook__text',
-			start: '200px bottom',
-		},
-	}
-)
+// gsap.fromTo(
+// 	'.scetchbook__text',
+// 	{ x: -70, opacity: 0 },
+// 	{
+// 		x: 0,
+// 		opacity: 1,
+// 		delay: 0.5,
+// 		duration: 0.5,
+// 		ease: 'linear',
+// 		scrollTrigger: {
+// 			trigger: '.scetchbook__text',
+// 			start: '200px bottom',
+// 		},
+// 	}
+// )
+// gsap.fromTo(
+// 	'.scetchbook__image',
+// 	{ x: 70, opacity: 0 },
+// 	{
+// 		x: 0,
+// 		opacity: 1,
+// 		delay: 0.5,
+// 		duration: 0.5,
+// 		ease: 'linear',
+// 		scrollTrigger: {
+// 			trigger: '.scetchbook__text',
+// 			start: '200px bottom',
+// 		},
+// 	}
+// )
